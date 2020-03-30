@@ -10,8 +10,10 @@ var etàMaggiore;
 //capisco quale è maggiore
 if (etàP1 > etàP2){
  etàMaggiore = etàP1;
-}else if (etàP1 < etàP2){
+} else if (etàP1 < etàP2){
   etàMaggiore = etàP2;
+} else{
+  etàMaggiore = "Avete la stessa età";
 }
 
 document.getElementById("mio_id").innerHTML = etàMaggiore;

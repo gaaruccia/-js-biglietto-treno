@@ -1,4 +1,3 @@
-
 // chiedo il numero dei  km
 var kilometriDaFare = prompt("Inserisci i kilometri da eseguire?");
 // chiedo l'età
@@ -20,5 +19,5 @@ if (etàUtente <= 17){
 // sottraggo dal prezzo del viaggio lo sconto (se presente)
 var prezzoScontato = prezzoFinale - sconto;
 // stampo a video questo valore
-document.getElementById('mio_id').innerHTML = prezzoScontato;
+document.getElementById('mio_id').innerHTML = prezzoScontato.toFixed(2);
 console.log(sconto);
